@@ -1,28 +1,31 @@
 {
   "name": "simplefolio",
   "version": "1.0.1",
-  "private": "true",
+  "private": true,
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "index.html",
+  "homepage": "https://snehamscodes.github.io/simplefolio",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "predeploy": "parcel build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobiwave/simplefolio"
+    "url": "git+https://github.com/SnehaMSCodes/simplefolio.git"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
+  "author": "Sneha Santhosh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cobiwave/simplefolio/issues"
+    "url": "https://github.com/SnehaMSCodes/simplefolio/issues"
   },
-  "homepage": "https://github.com/cobiwave/simplefolio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "parcel": "^2.8.2",
-    "prettier": "^2.8.1"
+    "prettier": "^2.8.1",
+    "gh-pages": "^6.1.1"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
